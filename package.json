@@ -1,0 +1,26 @@
+{
+  "name": "locker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3"
+  },
+  "keywords": [],
+  "author": "vijay",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^5.0.7",
+    "electron-builder": "^21.0.15",
+    "electron-prebuilt": "^1.4.13",
+    "knex": "^0.19.0",
+    "node-cmd": "^3.0.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.5"
+  }
+}
