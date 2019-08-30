@@ -15,7 +15,7 @@ app.on('ready', () => {
     height: 390,
     width: 680
   })
- 
+ mainWindow.setResizable(false);
   mainWindow.loadURL('file://' + __dirname + '/index.html')
   pickerDialog.loadURL('file://' + __dirname + '/picker.html')
 });

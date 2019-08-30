@@ -14,13 +14,15 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^5.0.7",
-    "electron-builder": "^21.0.15",
     "electron-prebuilt": "^1.4.13",
+    "fast-csv": "^3.4.0",
+    "fs": "0.0.1-security",
     "knex": "^0.19.0",
     "node-cmd": "^3.0.0",
-    "sqlite3": "^4.0.9"
+    "sqlite3": "^4.1.0"
   },
   "devDependencies": {
+    "electron-builder": "^21.2.0",
     "electron-rebuild": "^1.8.5"
   }
 }
