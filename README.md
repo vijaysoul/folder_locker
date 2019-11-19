@@ -1,5 +1,5 @@
 # folder_locker
-fikderlocker using electronjs
+Folderlocker using electronjs
 
 
 #install dependecies 
